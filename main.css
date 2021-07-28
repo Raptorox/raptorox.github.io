@@ -9,9 +9,29 @@ html, body {
 	font-family: "Montserrat";
 }
 
+body {
+	margin-top: 53px;
+	position: relative;
+}
+
 a {
 	text-decoration: none;
 	color: inherit;
+}
+
+a:hover {
+	color: #803B13;
+}
+
+.about {
+	position: relative;
+		top: 8vw;
+	text-align: center;
+}
+
+.lang {
+	position: relative;
+		left: -13vw;
 }
 
 header {
@@ -25,17 +45,15 @@ header {
 }
 
 header a {
+	font-size: 20px;
+	font-weight: bold;
 	display: flex;
 	align-items: center;
 	height: inherit;
 }
 
-header span {
-	font-size: 20px;
-	font-weight: bold
-}
-
-header .home {
+header div {
 	height: inherit;
 	display: inline-block;
+	padding-right: 20px;
 }
