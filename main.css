@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap&subset=latin-ext');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap&subset=latin-ext");
 
 html, body {
 	margin: 0;
@@ -27,11 +27,6 @@ a:hover {
 	position: relative;
 		top: 8vw;
 	text-align: center;
-}
-
-.lang {
-	position: relative;
-		left: -13vw;
 }
 
 header {
